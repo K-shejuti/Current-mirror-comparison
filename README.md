@@ -18,3 +18,4 @@ Our goal is to copy $1uA$ -> $1uA$ current with the below spec -
  This basic circuit has 2 problems to solve:
  - Different in $V_{DS}$ due to channel length modulation
  - If Vout changing, Iout should not change
+<img width="610" alt="cascode+normal current mirror_schematic (1)" src="https://github.com/user-attachments/assets/cd309027-f051-4f46-95cb-c4d7037b3779" />
