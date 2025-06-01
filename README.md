@@ -43,3 +43,11 @@ Simulated circuit DC point -
 
 
 **Results summary**
+
+Below is the schematic in ltspice to comapre between normal and cascode current mirror.
+
+<img width="610" alt="cascode+normal current mirror_schematic (1)" src="https://github.com/user-attachments/assets/9ef6416e-1ca0-4481-860f-049fcb6248c7" />
+
+We introduce Iout vs. Vout (Voltage as load) graph to compare between the different current mirrors. 
+
+<img width="558" alt="cascode+normal current mirror" src="https://github.com/user-attachments/assets/a46130aa-d0d9-477f-bfe2-5a489791e1a5" />
