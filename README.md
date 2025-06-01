@@ -15,8 +15,12 @@ Our goal is to copy $1uA$ -> $1uA$ current with the below spec -
   ![basic_cm](https://github.com/dsapir4422/Current-Mirrors-comparison/assets/87266625/67c109e3-aeac-4e78-9b63-4bd1ff0e7566)
 
 
+
+ 
  This basic circuit has 2 problems to solve:
  - Different in $V_{DS}$ due to channel length modulation
  - If Vout changing, Iout should not change
 <img width="609" alt="normal_current-mirror_schematic (1)" src="https://github.com/user-attachments/assets/fc314786-8469-421b-bdb4-ccb521204071" />
+
+
 In this basic circuit - $R_{out} = r_{o2}$, which is the right NMOS output resistance.
