@@ -39,4 +39,7 @@ Adding a cascode device will increase output resistance by -  $R{out}$ = $g_{m2}
  
 Simulated circuit DC point - 
 
+<img width="493" alt="cascode_schemtaic" src="https://github.com/user-attachments/assets/4a5e5a96-58fe-4269-92c5-4c1c3e6afc1d" />
+
+
 **Results summary**
