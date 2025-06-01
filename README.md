@@ -52,4 +52,11 @@ We introduce Iout vs. Vout (Voltage as load) graph to compare between the differ
 
 <img width="558" alt="cascode+normal current mirror" src="https://github.com/user-attachments/assets/a46130aa-d0d9-477f-bfe2-5a489791e1a5" />
 
-From the plots we can see the normal current mirror has a lower output resitance but min voltage for saturation is also low. The cascode current mirror has a high output resistance but min voltage for saturation for the circuti is also high, that is it will take higher voltage to start behaving as a current mirror and yield the desired result.
+From the plots, we observe that the normal current mirror has a lower output resistance but also a lower minimum voltage required for saturation. In contrast, the cascode current mirror exhibits a higher output resistance, but it also requires a higher minimum voltage to enter saturation. This means it needs a higher voltage to begin functioning effectively as a current mirror and produce the desired output.
+
+Below is the result summary is a table
+
+| Type of current mirror| Minimum voltage for saturation| output resistance | Accuracy |
+| :---:  | :-: | :-: | :-: |
+| Normal current mirror| $V_{out,min} = V_{ov}$| low($g_{m}$ * $r_{o}$)| low |
+| Cascode current mirror| $V_{out,min} = V_{gs}+V_{ov} = 2V_{ov} + V{th}$ |high($g_{m}$ * $r_{o}$ * $r_{o}$)| high |
