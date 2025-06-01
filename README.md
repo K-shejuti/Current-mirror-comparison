@@ -51,3 +51,5 @@ Below is the schematic in ltspice to comapre between normal and cascode current 
 We introduce Iout vs. Vout (Voltage as load) graph to compare between the different current mirrors. 
 
 <img width="558" alt="cascode+normal current mirror" src="https://github.com/user-attachments/assets/a46130aa-d0d9-477f-bfe2-5a489791e1a5" />
+
+From the plots we can see the normal current mirror has a lower output resitance but min voltage for saturation is also low. The cascode current mirror has a high output resistance but min voltage for saturation for the circuti is also high, that is it will take higher voltage to start behaving as a current mirror and yield the desired result.
